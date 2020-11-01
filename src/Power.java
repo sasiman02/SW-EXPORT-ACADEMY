@@ -22,5 +22,5 @@ class Power
     private static int getPower(int N, int M) {
         if (M != 0) return N * getPower(N, --M);
         return 1;
-    }
+    } 
 }
